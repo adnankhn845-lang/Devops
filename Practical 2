@@ -1,0 +1,16 @@
+git config --global user.name "Adnan Khan"	|Set username globally
+git config --global user.email "adnan@gmail.com"	|Set email globally
+git config --list	    |isplay all configurations 
+git branch	          Show existing branches
+git branch Rohit-1	      Create branch Rohit-1
+git branch Rohit-2	         reate branch Rohit-2
+git checkout Rohit-1	       Switch to Rohit-1 branch
+git add hi.txt	          Add file to staging area
+git commit -m "committed"	        Save changes permanently
+git checkout Rohit-2	           Switch to Rohit-2 branch
+git merge Rohit-1	        Merge Rohit-1 into Rohit-2
+git checkout main 	       Switch to main branch
+git merge Rohit-1	       Merge Rohit-1 into main
+git remote add origin URL	         Connect local repository with GitHub
+git push -u origin main	         Upload local repository to GitHub
+git pull origin main	          Download latest changes from GitHub
