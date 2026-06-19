@@ -1,0 +1,29 @@
+git --version
+
+git init
+
+git status
+
+git add heloo.html
+
+git add heloo.java
+
+git status
+
+git config user.name "Adnan Khan"
+
+git config user.email "adnan@gmail.com"
+
+git config --list
+
+git commit -m "hi, i am Rohit"
+
+git log
+
+git restore heloo.html
+
+git config --unset user.name
+
+git config --unset user.email
+
+git config --list
